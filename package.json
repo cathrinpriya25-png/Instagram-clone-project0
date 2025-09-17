@@ -3,14 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://cathrinpriya25-png.github.io/Instagram-clone-project0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node code404.jsx",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d dist"
+    "build": "vite build ",
+    "lint": "eslint ."
   },
   "dependencies": {
     "axios": "^1.11.0",
